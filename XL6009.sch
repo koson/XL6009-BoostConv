@@ -78,8 +78,8 @@ $Comp
 L Device:C C4
 U 1 1 60125AF9
 P 5850 3300
-F 0 "C4" V 5598 3300 50  0000 C CNN
-F 1 "10u" V 5689 3300 50  0000 C CNN
+F 0 "C4" V 6000 3300 50  0000 C CNN
+F 1 "10u" V 5700 3300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5888 3150 50  0001 C CNN
 F 3 "~" H 5850 3300 50  0001 C CNN
 	1    5850 3300
@@ -180,7 +180,7 @@ F 1 "10u" H 6635 2645 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6788 2450 50  0001 C CNN
 F 3 "~" H 6750 2600 50  0001 C CNN
 	1    6750 2600
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C6
@@ -191,7 +191,7 @@ F 1 "10u" H 6635 3695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6788 3500 50  0001 C CNN
 F 3 "~" H 6750 3650 50  0001 C CNN
 	1    6750 3650
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C8
@@ -299,7 +299,7 @@ F 1 "330u" H 4118 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x6.5" H 4038 3350 50  0001 C CNN
 F 3 "~" H 4000 3500 50  0001 C CNN
 	1    4000 3500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 3300 4000 3350
@@ -340,7 +340,7 @@ L Connector:Conn_01x02_Female J1
 U 1 1 60145F00
 P 3550 2950
 F 0 "J1" H 3442 3135 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 3442 3044 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3442 3044 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3550 2950 50  0001 C CNN
 F 3 "~" H 3550 2950 50  0001 C CNN
 	1    3550 2950
@@ -364,7 +364,7 @@ L Connector:Conn_01x03_Female J2
 U 1 1 6014942D
 P 8100 3050
 F 0 "J2" H 8128 3076 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8128 2985 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8128 2985 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8100 3050 50  0001 C CNN
 F 3 "~" H 8100 3050 50  0001 C CNN
 	1    8100 3050
